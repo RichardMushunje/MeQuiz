@@ -1,16 +1,30 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f2f2f2;
+    background-color: #f0e5cf; /* Light Beige */
+}
+
+#greeting {
+    color: #333; /* Dark Gray */
+}
+
+#username,
+#age,
+button {
+    margin: 10px;
 }
 
 .quiz-container {
-    background-color: #fff;
+    background-color: #fef9f6; /* Light Peach */
     border-radius: 8px;
     padding: 20px;
     width: 400px;
     margin: 0 auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#question {
+    color: #4CAF50; /* Green */
 }
 
 .choices {
@@ -21,13 +35,18 @@ body {
 .choice {
     margin: 5px;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #3498db; /* Blue */
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .choice:hover {
-    background-color: #45a049;
+    background-color: #2980b9; /* Darker Blue */
+}
+
+#score {
+    color: #e74c3c; /* Red */
 }
